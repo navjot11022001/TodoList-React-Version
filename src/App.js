@@ -114,42 +114,6 @@ return <List
                </div>
            </div>
                </div>
-{/* 
-<div className="container"> 
-    <div className="row">
-        <div className="offset-2 col-8">
-<h1 className="text-center">todo list</h1>
-<div className="upper-div">
-<h1>{item}</h1>
-<h2>{item}</h2>
-    <input type="text" className="input" onChange={setValue} value={item} placeholder="enter the Value"/>
-<span>
-     {btn?<button className="btn btn-primary" onClick={editkrdo}>edit</button>:<button className="btn btn-primary" onClick={callTheValue}>+</button>
-   }
-</span>
-     
-
-</div>
-<div className="lower-div">
-<ol>
-    
-{itemArray.map((value,index)=>{
-return <List
-    element={value}
-    id={index}
-    deletee={deletee}
-    editTask={editTask}
-    moveUp={moveUp}
-    moveDown={moveDown}
-    
-/>
-})
-}
-</ol>
-</div>
-        </div>
-    </div> */}
-
 </>
 
     )
