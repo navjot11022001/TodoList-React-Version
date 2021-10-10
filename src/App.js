@@ -87,7 +87,7 @@ setItemArray(newt);
 
            <h1 class="text-center m-3 head">Todo List</h1>
            <div class="internal">
-                <input type="text" className="form-control me-2" id="gg" onChange={setValue} value={item} placeholder="enter the Value"/>
+                <input type="text" className="form-control me-2" id="gg" onChange={setValue} value={item} placeholder="Enter The Value"/>
 
                {btn?<button className="btn btn-outline-dark" id="add" onClick={editkrdo}><i class="far fa-save"></i></button>:<button className="btn btn-outline-dark" id="add" onClick={callTheValue}> <i class="fas fa-plus"></i></button>
    }
